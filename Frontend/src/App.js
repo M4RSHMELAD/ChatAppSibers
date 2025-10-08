@@ -19,7 +19,7 @@ function App() {
 
     const joinChat = async (userName, chatRoom) => {
         var connection = new HubConnectionBuilder()
-            .withUrl("http://192.168.0.14:5022/chat")
+            .withUrl("http://localhost:5022/chat")
             .withAutomaticReconnect()
             .build();
 
