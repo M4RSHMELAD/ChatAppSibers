@@ -3,6 +3,18 @@
 > **Готовое тестовое задание для компании SIBERS**  
 > *"Because great communication starts with great code"*
 
+## ⚠️ ВАЖНО: Перед запуском
+
+**Для работы приложения необходим Redis!** 🚨
+
+### 🐳 Запуск Redis через Docker:
+```bash
+# Запустить Redis
+docker-compose up -d
+
+# Проверить что Redis работает
+docker ps
+```
 ---
 
 ## 🚀 О чем этот проект?
@@ -28,3 +40,17 @@
   "Container": "Docker",
   "Architecture": "Clean Architecture"
 }
+```
+### Frontend
+```json{
+  "Library": "React 18",
+  "UI": "Chakra UI",
+  "WebSocket": "@microsoft/signalr",
+  "Styling": "Tailwind CSS",
+  "Build": "Vite"
+}
+```
+
+
+
+
