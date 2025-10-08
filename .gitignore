@@ -1,0 +1,11 @@
+.idea
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/build/
+.DS_Store
+*.log
+.env
+*.dockerignore
+!.gitkeep
