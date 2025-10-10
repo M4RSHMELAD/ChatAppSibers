@@ -14,6 +14,12 @@ docker-compose up -d
 
 # Проверить что Redis работает
 docker ps
+
+```
+### Запуск Чата:
+```bash
+Frontend: npm run start
+Backend: запуск redis через докер и запустить через ide либо dotnet run
 ```
 ---
 
